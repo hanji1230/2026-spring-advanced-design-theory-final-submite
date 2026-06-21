@@ -1,11 +1,10 @@
-# 2026년 1학기 설계특론 과제 제출 안내
+# 2026년 1학기 설계특론 최종과제 제출 안내
 
-이 저장소는 **2026년 1학기 설계특론 과제 제출용 저장소**입니다.
+이 저장소는 **2026년 1학기 설계특론 과제 최종제출용 저장소**입니다.
 
 학생들은 GitHub 방식으로 과제를 제출합니다.
 
 제출 순서는 다음과 같습니다.
-
 1. 이 저장소를 본인 GitHub 계정으로 Fork합니다.
 2. 본인 이름과 프로젝트명으로 제출 폴더를 만듭니다.
 3. 과제 파일을 본인 폴더 안에 넣습니다.
@@ -21,34 +20,20 @@ https://github.com/philipdekim-OnD01/2026-spring-advanced-design-theory-final-su
 ```
 
 ## 제출 전에 준비할 것
-
-다음이 필요합니다.
-
 - GitHub 계정
 - 제출할 과제 파일
-
-GitHub 웹에서 제출하면 Git이나 GitHub Desktop을 설치하지 않아도 됩니다.
+* GitHub 웹에서 제출하면 Git이나 GitHub Desktop을 설치하지 않아도 됩니다.
 
 ## 제출 폴더 이름 규칙
-
 반드시 본인 폴더를 하나 만들고, 그 안에 과제를 넣어 주세요.
-
 폴더 이름은 아래 형식을 사용합니다.
 
 ```text
 이름.최종과제.프로젝트명
 ```
 
-교수자 예시 자료는 `00`번으로 이미 올라와 있습니다. 학생은 `00`, `01`, `02` 같은 번호를 직접 붙이지 마세요.
-
+예시 자료참고 하세요(번호는 붙이지 않아도 됩니다)
 ```text
-00.김임환교수.최종과제.SSD.on.RSP.Project
-```
-
-학생 제출 폴더 예시는 다음과 같습니다.
-
-```text
-홍길동.최종과제.My.Project
 김철수.최종과제.Raspberry.Pi.Project
 ```
 
@@ -69,9 +54,11 @@ GitHub 웹에서 제출하면 Git이나 GitHub Desktop을 설치하지 않아도
 |   `-- RSP_SSD_LAB/
 |-- 홍길동.최종과제.My.Project/
 |   |-- README.md
-|   |-- report.pdf
+|   |-- report.doc (or pdf)
 |   |-- source/
+|   |-- data(image)/
 |   `-- figures/
+|    
 `-- README.md
 ```
 
@@ -94,17 +81,14 @@ https://github.com/philipdekim-OnD01/2026-spring-advanced-design-theory-final-su
 3. Fork가 끝나면 본인 계정에 제출 저장소의 복사본이 생깁니다.
 
 주의할 점:
-
 - Fork는 원본 저장소의 현재 `main` 내용을 복사합니다.
 - 교수자 예시 자료인 `00.김임환교수.최종과제.SSD.on.RSP.Project` 폴더는 함께 복사됩니다.
-- 학생 제출 Pull Request는 마감 전까지 원본 저장소에 merge하지 않습니다.
-- 따라서 정상 운영 중에는 다른 학생의 제출 폴더가 본인 fork에 함께 들어오지 않습니다.
+- 제가 Merge전까지, 정상운영 중에는 다른 학생의 제출 폴더가 본인 fork에 함께 들어오지 않습니다.
 - 만약 다른 학생 폴더가 보이더라도 수정하거나 삭제하지 말고, 본인 제출 폴더만 추가하세요.
 
 ### 3. 본인 제출 폴더 만들기
 
 본인 fork 저장소에서 다음 순서로 진행합니다.
-
 1. **Add file**을 누릅니다.
 2. **Create new file**을 누릅니다.
 3. 파일 이름 입력칸에 아래 형식으로 입력합니다.
@@ -120,7 +104,6 @@ https://github.com/philipdekim-OnD01/2026-spring-advanced-design-theory-final-su
 ```
 
 GitHub는 빈 폴더만 따로 만들 수 없습니다. 그래서 `폴더명/README.md`처럼 입력하면 폴더와 README 파일이 함께 만들어집니다.
-
 README에는 프로젝트 제목, 설명, 제출 파일 목록을 간단히 적습니다.
 
 예시:
@@ -242,8 +225,6 @@ Create pull request = 교수자 저장소에 제출
 GitHub Desktop 또는 터미널 사용이 익숙한 학생은 본인 fork를 clone해서 작업한 뒤 commit/push해도 됩니다. 하지만 큰 파일은 여전히 Drive/OneDrive 링크로 제출하는 것을 권장합니다.
 
 ## 제출 후 수정하고 싶을 때
-
-마감 전이라면 수정할 수 있습니다.
 
 GitHub 웹에서 수정하는 경우:
 
