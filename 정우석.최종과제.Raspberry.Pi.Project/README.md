@@ -6,6 +6,5 @@ Raspberry Pi Project
 
 ## 제출 파일
 
-- report.pdf
-- source/
-- figures/
+- 발표자료.pdf
+- EX_* --> source 자료 
